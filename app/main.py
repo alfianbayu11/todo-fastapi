@@ -3,6 +3,10 @@ from sqlalchemy.orm import Session
 from typing import List
 from . import crud, models, schemas, database, auth
 from .dependencies import get_db, get_current_user
+from app.database import Base, engine
+
+# Buat tabel secara otomatis
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
