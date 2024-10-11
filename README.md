@@ -14,7 +14,7 @@ This is a simple To-Do List application backend built using **FastAPI**. The app
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your_username/todo-fastapi.git
+   git clone https://github.com/alfianbayu11/todo-fastapi.git
    cd todo-fastapi
    ```
 
